@@ -4,18 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Payment_Selection.Models;
-using System.Data.Entity;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace Payment_Selection.DataAccess
 {
 
     public class AppDbContext : DbContext
     {
-        public AppDbContext() : base("name=MyConnectionString") { }
-
         public DbSet<PaymentType> PaymentTypes { get; set; }
 
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer("Server=MONSTERSUDE\\SQLEXPRESS;Database=PaymentDB;Trusted_Connection=True;Encrypt=False;");
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<PaymentType>().ToTable("TblPaymentTypes");
         }
