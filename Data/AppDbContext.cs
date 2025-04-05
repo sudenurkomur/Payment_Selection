@@ -8,5 +8,6 @@ namespace Payment_Selection.DataAccess
 {
     internal class AppDbContext
     {
+        
     }
 }

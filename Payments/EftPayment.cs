@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Payment_Selection.Payments
 {
-    internal interface IPayment
+    public class EftPayment : IPayment
     {
-        string Pay(decimal amount);
+        public string Pay(decimal amount)
+        {
+            return $"{amount} TL EFT ile ödendi.";
+        }
     }
 }

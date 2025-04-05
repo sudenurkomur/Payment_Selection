@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Payment_Selection.Payments
 {
-    internal interface IPayment
+    public class CreditCardPayment : IPayment
     {
-        string Pay(decimal amount);
+        public string Pay(decimal amount)
+        {
+            return $"{amount} TL kredi kartı ile ödendi.";
+        }
     }
 }

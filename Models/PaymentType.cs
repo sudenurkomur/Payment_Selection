@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Payment_Selection.Models
 {
-    internal class Class1
+    public class PaymentType
     {
+        public int Id { get; set; }
+        public string ClassName { get; set; }
     }
 }

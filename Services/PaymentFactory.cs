@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Payment_Selection.Services
 {
-    internal class Class1
+    internal class PaymentFactory
     {
     }
 }
