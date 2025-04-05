@@ -26,38 +26,18 @@ namespace Payment_Selection
             }
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             string selectedType = comboBox1.SelectedItem?.ToString();
             if (string.IsNullOrWhiteSpace(selectedType))
             {
-                MessageBox.Show("Lütfen bir ödeme türü seçin.");
+                lblResult.Text = "Please select a payment type.";
                 return;
             }
 
             if (!decimal.TryParse(textBox1.Text, out decimal amount))
             {
-                MessageBox.Show("Lütfen geçerli bir fiyat girin.");
+                lblResult.Text = "Please enter a valid price.";
                 return;
             }
 
@@ -66,12 +46,13 @@ namespace Payment_Selection
 
             if (payment != null)
             {
-                MessageBox.Show(payment.Pay(amount), "Ödeme Sonucu");
+                lblResult.Text = payment.Pay(amount);
             }
             else
             {
-                MessageBox.Show("Sýnýf bulunamadý.");
+                lblResult.Text = "Payment type could not be created.";
             }
         }
+
     }
 }

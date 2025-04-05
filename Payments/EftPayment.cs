@@ -10,7 +10,7 @@ namespace Payment_Selection.Payments
     {
         public string Pay(decimal amount)
         {
-            return $"{amount} TL EFT ile ödendi.";
+            return $"{amount} TL paid by Eft.";
         }
     }
 }

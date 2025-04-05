@@ -10,7 +10,7 @@ namespace Payment_Selection.Payments
     {
         public string Pay(decimal amount)
         {
-            return $"{amount} TL kredi kartı ile ödendi.";
+            return $"{amount} TL paid by credit card.";
         }
     }
 }

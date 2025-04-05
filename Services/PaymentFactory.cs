@@ -12,7 +12,7 @@ namespace Payment_Selection.Services
     {
         public IPayment CreateInstance(string className)
         {
-            var fullName = "Payment_Selection.Payments." + className; // Namespace'e tam olarak dikkat et
+            var fullName = "Payment_Selection.Payments." + className;
             var obj = Assembly.GetExecutingAssembly().CreateInstance(fullName);
             return (IPayment)obj;
         }
