@@ -1,0 +1,28 @@
+
+# Build klasörleri
+bin/
+obj/
+
+# VS Code veya Visual Studio ayarları
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Geçici dosyalar
+*.log
+*.tmp
+*.bak
+*.cache
+
+# Yedek dosyalar
+*.~*
+*.swp
+
+# NuGet klasörü
+packages/
+
+# Ortam dosyaları
+.env
+.env.*
