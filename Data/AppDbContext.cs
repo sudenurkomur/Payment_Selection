@@ -1,22 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Payment_Selection.Models;
-using Microsoft.EntityFrameworkCore;
-
+using System.IO;
 
 namespace Payment_Selection.DataAccess
 {
-
     public class AppDbContext : DbContext
     {
         public DbSet<PaymentType> PaymentTypes { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=MONSTERSUDE\\SQLEXPRESS;Database=PaymentDB;Trusted_Connection=True;Encrypt=False;");
+            var config = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json", optional: false)
+                .Build();
+
+            var connectionString = config.GetConnectionString("DefaultConnection");
+
+            optionsBuilder.UseSqlServer(connectionString);
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

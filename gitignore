@@ -19,6 +19,7 @@ obj/
 # Yedek dosyalar
 *.~*
 *.swp
+appsettings.json
 
 # NuGet klasörü
 packages/
