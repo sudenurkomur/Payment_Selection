@@ -1,0 +1,17 @@
+C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\bin\Debug\net7.0-windows\Payment_Selection.exe
+C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\bin\Debug\net7.0-windows\Payment_Selection.deps.json
+C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\bin\Debug\net7.0-windows\Payment_Selection.runtimeconfig.json
+C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\bin\Debug\net7.0-windows\Payment_Selection.dll
+C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\bin\Debug\net7.0-windows\Payment_Selection.pdb
+C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\obj\Debug\net7.0-windows\Payment_Selection.csproj.AssemblyReference.cache
+C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\obj\Debug\net7.0-windows\Payment_Selection.Form1.resources
+C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\obj\Debug\net7.0-windows\Payment_Selection.csproj.GenerateResource.cache
+C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\obj\Debug\net7.0-windows\Payment_Selection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\obj\Debug\net7.0-windows\Payment_Selection.AssemblyInfoInputs.cache
+C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\obj\Debug\net7.0-windows\Payment_Selection.AssemblyInfo.cs
+C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\obj\Debug\net7.0-windows\Payment_Selection.csproj.CoreCompileInputs.cache
+C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\obj\Debug\net7.0-windows\Payment_Selection.dll
+C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\obj\Debug\net7.0-windows\refint\Payment_Selection.dll
+C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\obj\Debug\net7.0-windows\Payment_Selection.pdb
+C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\obj\Debug\net7.0-windows\Payment_Selection.genruntimeconfig.cache
+C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\obj\Debug\net7.0-windows\ref\Payment_Selection.dll
