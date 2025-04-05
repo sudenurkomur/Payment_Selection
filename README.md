@@ -10,7 +10,7 @@ It allows users to select a payment method (e.g., Cash, Credit Card, EFT) and en
 
 ## 🖼️ Screenshot
 
-![App Screenshot](screen.jpg) <!-- Replace with your actual image file -->
+![App Screenshot](assets/screen.jpg) <!-- Replace with your actual image file -->
 
 ## 🛠️ Technologies
 - .NET 7
