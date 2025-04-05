@@ -15,3 +15,13 @@ C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Paym
 C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\obj\Debug\net7.0-windows\Payment_Selection.pdb
 C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\obj\Debug\net7.0-windows\Payment_Selection.genruntimeconfig.cache
 C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\obj\Debug\net7.0-windows\ref\Payment_Selection.dll
+C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\bin\Debug\net7.0-windows\Payment_Selection.dll.config
+C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\bin\Debug\net7.0-windows\EntityFramework.SqlServer.dll
+C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\bin\Debug\net7.0-windows\EntityFramework.dll
+C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\bin\Debug\net7.0-windows\System.Data.SqlClient.dll
+C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\bin\Debug\net7.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\bin\Debug\net7.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\bin\Debug\net7.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\bin\Debug\net7.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\bin\Debug\net7.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\suden\OneDrive\Masaüstü\DoğuşTeknoloji\Day-1\Payment_Selection\Payment_Selection\obj\Debug\net7.0-windows\Payment_Selection.csproj.CopyComplete
